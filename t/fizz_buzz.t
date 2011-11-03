@@ -6,4 +6,6 @@ use Test::More tests => 1;
 
 BEGIN { use_ok('FizzBuzz'); }
 
+ok(FizzBuzz::fizz_buzz(3) eq "Fizz", "Case when the module get 3 and then module should return Fizz");
+
 
